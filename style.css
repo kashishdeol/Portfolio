@@ -1,0 +1,257 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-image: url(./Image/bg1.jfif);
+  background-size: cover;
+}
+
+.body_section {
+  padding: 3% 5% 1%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2;
+  color: #868e96;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-light {
+  font-size: 50px;
+  font-weight: bold;
+  color: #351458;
+}
+
+
+.headerachor {
+  color: black;
+  margin: 0 7px 0 7px;
+  font-size: 25px;
+}
+
+
+/* Section 1 */
+.column1 {
+  /* background-image: linear-gradient(#fefcfe,#ffffff); */
+  padding: 8px 16px;
+}
+
+.section-1 {
+  margin-top: 6%;
+  text-align: left;
+  position: relative;
+}
+
+/* span.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+} */
+
+/* @keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }
+  100% { transform: rotate(  0.0deg) }
+} */
+
+.first-image {
+  position: absolute;
+  right: 0;
+}
+
+.boyimage {
+  height: 300px;
+}
+
+@media only screen and (max-width : 1183px) {
+  .first-image {
+    right: 160px;
+  }
+}
+
+
+
+@media only screen and (min-width:951px) {
+  .Image-boy {
+    display: none;
+  }
+}
+
+.Hello {
+  margin-bottom: 20px;
+}
+
+/* ICONS */
+.btn {
+  display: inline-block;
+  width: 4.37rem;
+  height: 4.37rem;
+  background: #e9e9e9;
+  padding: 0px 0px;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn i {
+  line-height: 70px;
+  font-size: 1.625rem;
+  transition: 0.2s linear;
+}
+
+.btn:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3498db;
+  /* transform: rotate(45deg); */
+  left: -110%;
+  top: 90%;
+}
+
+.btn:hover::before {
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@media only screen and (max-width:470px) {
+  .btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 7px;
+  }
+
+  .btn i {
+    line-height: 40px;
+    font-size: 1em;
+  }
+}
+
+#Whatido {
+  text-align: center;
+  padding-top: 7%;
+}
+
+.feature-1 {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.Feature-Heading {
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.Feature-first-image {
+  padding: 0 2% 10%;
+}
+
+.Feature-second-image {
+  padding: 5% 2% 0;
+}
+
+.Feature-image {
+  width: 100%;
+  height: 100%;
+}
+
+.dev-icon {
+  list-style: none;
+  display: inline;
+  padding: 0%;
+}
+
+
+li {
+  display: inline;
+}
+
+.aboutweb {
+  text-align: left;
+}
+
+.Features-paragraph {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width : 764px) {
+  .feature-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-web {
+    order: 2;
+  }
+
+  .navbar-light {
+    font-size: 40px;
+    font-weight: bold;
+    color: #351458;
+  }
+}
+
+@media only screen and (max-width : 1183px) {
+  .first-image {
+    right: 160px;
+  }
+}
+
+@media only screen and (max-width : 991px) and (min-width: 951px) {
+  .section-1 {
+    margin-top: auto;
+    padding-right: 400px;
+  }
+}
+
+@media only screen and (max-width : 950px) {
+
+  body,
+  html {
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .Hello {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: normal;
+  }
+
+  .section-1 {
+    text-align: center;
+  }
+
+  .first-image {
+    display: none;
+  }
+
+}
